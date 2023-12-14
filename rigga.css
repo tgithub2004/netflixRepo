@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height: 100%;
+}
+
+.page1{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.342),rgba(0, 0, 0, 0.452)),url('rigga images/pexels-saya-kimura-401107.jpg');
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+
+}
+@font-face {
+    font-family: hi;
+    src: url('Heading-Now-Variable.ttf');
+}
+.nav{
+    width:60%;
+    padding:2%;
+    height:50px;
+    /* border:1px solid white; */
+    display: flex;
+   justify-content: space-evenly;
+   align-items:center;
+   z-index: 1;
+   
+}
+.nav a{
+    color: white;
+    font-family: "Samsung Sharp sans";
+    font-size: 1.1vw;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+.page1 h1{
+    font-size: 42vw;
+    color:white;
+    font-family:hi;
+    font-weight:700;
+    letter-spacing:-20px;
+    white-space: nowrap;
+    position: absolute;
+    top:-10%;
+    margin:0px 4%;
+    font-stretch: 250%;
+    /* border:1px solid white; */
+    z-index:-1;
+ 
+   
+}
+.page2{
+    padding: 2%;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    background: rgb(36,16,107);
+background: linear-gradient(90deg, rgba(36,16,107,1) 25%, rgba(62,205,234,1) 88%);
+}
+.page2 h1{
+    font-family: "Kalam";
+    color:white;
+    font-size: 4vw;
+    letter-spacing: 5px;
+    font-weight: 800;
+}
+.middlesection{
+    width: 95%;
+    /* border:1px solid white; */
+    margin:0px auto;
+    height: 90%;
+    gap:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.left{
+    width: calc(90%/2);
+    height: 80%;
+    /* border:1px solid white; */
+    padding:1%;
+    height: 100%;
+   
+}
+.right{
+    width: calc(90%/2);
+    height: 100%;
+    overflow: hidden;
+    /* border:1px solid white; */
+}
+.left h2{
+    font-size: 4vw;
+    font-family: "Poppins";
+    font-weight: 100;
+    color:rgb(229, 228, 218);
+}
+
+#kill{
+    font-size: 1.7vw;
+    text-align: justify;
+    font-family: "Raleway";
+  
+}
+span{
+    font-family: "Rolling Beat_Personal Use";
+    font-size: 3vw;
+    color:rgb(225, 178, 9);
+}
+
+.right img{
+    width:120%;
+    height: 120%;
+    object-fit: cover;
+    margin-top:-20%;
+}
+
+/* for page3 css */
+.page3{
+    padding: 2%;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    background:linear-gradient(90deg, rgba(107,16,16,1) 35%, rgba(234,168,62,1) 88%);
+      
+}
+.page3 h1{
+    font-size: 4vw;
+    color:rgb(88, 196, 215);
+    font-family: 'kalam';
+    font-weight:300;
+}
+.page3left img{
+    width:120%;
+    height: 120%;
+    object-fit: cover;
+ transition: 0.5s;
+
+   
+}
+.page3left img:hover{
+    transform: scale(1.1);
+}
+.page3right{
+height: 100%;
+width: calc(90%/2);
+padding:2%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+
+/* border:1px solid white; */
+}
+.page3right h2{
+   color:white;
+    font-family: 'Raleway';
+    font-size: 3vw;
+    font-weight: 500;
+}
+.page3right p{
+    color:white;
+    font-family: 'poppins';
+    font-size: 1.6vw;
+    font-weight:100;
+    text-align: justify;
+    
+}
+.page3left{
+height: 100%;
+width: calc(90%/2);
+/* border:1px solid white; */
+/* padding-right: 10%;   */
+}
+.page4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.543),rgba(0, 0, 0, 0.365)),url('rigga images/pexels-dzenina-lukac-754262.jpg');
+    height: 100%;
+    background-size: cover;
+    background-position: bottom;
+    padding:2%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.img img{
+ height:40vw;
+ margin:0px auto;
+ position: absolute;
+ bottom:-90%;
+ left:30%;
+ opacity: 0;
+}
+.text{
+    width: 30%;
+}
+.text h2{
+    color:white;
+    font-size:3.5vw;
+    font-family: 'Raleway';
+    /* text-wrap: nowrap; */
+    position: absolute;
+    bottom:-20%;
+    color:rgb(231, 240, 109);
+    opacity: 0;
+}
+.text p{
+    color:white;
+    font-size:3vw;
+    font-family: 'kalam';
+    text-wrap: nowrap;
+    position: absolute;
+    opacity: 0;
+    bottom:-40%;
+}

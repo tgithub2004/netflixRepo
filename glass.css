@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height: 100%;
+}
+.page1{
+    width:100%;
+    height: 100%;
+    /* background-image: url('rigga images/pexels-dzenina-lukac-754262.jpg'); */
+    background-color: white;
+    background-size: cover;
+    padding:0.2%;
+    overflow: hidden;
+}
+.center{
+    height: 4vw;
+    width:100vw;
+    margin:0 auto;
+    padding:0px 2%;
+    /* text-align: center; */
+    /* border:1px solid white; */
+    backdrop-filter: blur(10px);
+    /* border-radius: 30px; */
+    background-color: rgba(211, 199, 199, 0.272);
+    display: flex;
+    align-items: center;
+    gap:4%;
+    justify-content: start;
+    transition: 0.5s;
+    position: relative;
+}
+h1{
+    color:white;
+    font-family: 'Samsung sharp sans';
+}
+a{
+    color:white;
+    text-decoration:none;
+    font-size: 1.2vw;
+    font-family: 'Samsung sharp sans';
+}
+.center:hover{
+    backdrop-filter: blur(0px);
+    background-color: rgba(211, 199, 199, 0);
+}
+.box{
+    position: absolute;
+    height:150px;
+    width:210px;
+    border-radius: 20px;
+    background-color: pink;
+    top:20%;
+    left:50%;
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.253),inset -20px -20px 60px #ffffff60;
+    transition: 0.4s;
+}
+.box:hover{
+    transform: scale(1.2);
+}
